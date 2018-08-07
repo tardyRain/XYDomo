@@ -32,6 +32,7 @@ UITableViewDataSource
     [_dataArray addObject:@[@"Block-回调",@"XYBlockViewController"]];
     [_dataArray addObject:@[@"UIScrollView-dealloc",@"XYScrolViewController"]];
     [_dataArray addObject:@[@"XYAttribute-属性字符串",@"XYAttributeViewController"]];
+    [_dataArray addObject:@[@"XYTypeC-语法",@"XYTypeCViewController"]];
 }
 
 -(void)viewDidAppear:(BOOL)animated

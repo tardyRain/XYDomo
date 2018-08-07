@@ -18,6 +18,9 @@
 		291A51C01E94D92E002B954B /* UIScrollView+D.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A51BF1E94D92E002B954B /* UIScrollView+D.m */; };
 		293CDB7321197C9A00305C2D /* XYAttributeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 293CDB7121197C9A00305C2D /* XYAttributeViewController.m */; };
 		293CDB7421197C9A00305C2D /* XYAttributeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293CDB7221197C9A00305C2D /* XYAttributeViewController.xib */; };
+		293CDB772119874E00305C2D /* XYBlockSyntax.m in Sources */ = {isa = PBXBuildFile; fileRef = 293CDB762119874E00305C2D /* XYBlockSyntax.m */; };
+		293CDB8121198C5300305C2D /* XYTypeCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 293CDB7E21198C5300305C2D /* XYTypeCViewController.m */; };
+		293CDB8221198C5300305C2D /* XYTypeCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293CDB8021198C5300305C2D /* XYTypeCViewController.xib */; };
 		29BE9B841ED8162E00EE3F49 /* XYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BE9B821ED8162E00EE3F49 /* XYWebViewController.m */; };
 		29BE9B851ED8162E00EE3F49 /* XYWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BE9B831ED8162E00EE3F49 /* XYWebViewController.xib */; };
 		29DB76241E6D8FE600653836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DB76231E6D8FE600653836 /* main.m */; };
@@ -62,6 +65,11 @@
 		293CDB7021197C9A00305C2D /* XYAttributeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAttributeViewController.h; sourceTree = "<group>"; };
 		293CDB7121197C9A00305C2D /* XYAttributeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAttributeViewController.m; sourceTree = "<group>"; };
 		293CDB7221197C9A00305C2D /* XYAttributeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XYAttributeViewController.xib; sourceTree = "<group>"; };
+		293CDB752119874E00305C2D /* XYBlockSyntax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYBlockSyntax.h; sourceTree = "<group>"; };
+		293CDB762119874E00305C2D /* XYBlockSyntax.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYBlockSyntax.m; sourceTree = "<group>"; };
+		293CDB7E21198C5300305C2D /* XYTypeCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTypeCViewController.m; sourceTree = "<group>"; };
+		293CDB7F21198C5300305C2D /* XYTypeCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTypeCViewController.h; sourceTree = "<group>"; };
+		293CDB8021198C5300305C2D /* XYTypeCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYTypeCViewController.xib; sourceTree = "<group>"; };
 		29BE9B811ED8162E00EE3F49 /* XYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYWebViewController.h; sourceTree = "<group>"; };
 		29BE9B821ED8162E00EE3F49 /* XYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYWebViewController.m; sourceTree = "<group>"; };
 		29BE9B831ED8162E00EE3F49 /* XYWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYWebViewController.xib; sourceTree = "<group>"; };
@@ -117,6 +125,8 @@
 				2913F6C71F1CA52300EB0667 /* XYBlockViewController.h */,
 				2913F6C81F1CA52300EB0667 /* XYBlockViewController.m */,
 				2913F6C91F1CA52300EB0667 /* XYBlockViewController.xib */,
+				293CDB752119874E00305C2D /* XYBlockSyntax.h */,
+				293CDB762119874E00305C2D /* XYBlockSyntax.m */,
 			);
 			path = XYBlock;
 			sourceTree = "<group>";
@@ -142,6 +152,16 @@
 				293CDB7221197C9A00305C2D /* XYAttributeViewController.xib */,
 			);
 			path = XYAttribute;
+			sourceTree = "<group>";
+		};
+		293CDB7D21198C5300305C2D /* XYTypeC */ = {
+			isa = PBXGroup;
+			children = (
+				293CDB7F21198C5300305C2D /* XYTypeCViewController.h */,
+				293CDB7E21198C5300305C2D /* XYTypeCViewController.m */,
+				293CDB8021198C5300305C2D /* XYTypeCViewController.xib */,
+			);
+			path = XYTypeC;
 			sourceTree = "<group>";
 		};
 		29BE9B801ED8161000EE3F49 /* XYWebView */ = {
@@ -173,6 +193,7 @@
 		29DB76211E6D8FE600653836 /* XYDomo */ = {
 			isa = PBXGroup;
 			children = (
+				293CDB7D21198C5300305C2D /* XYTypeC */,
 				293CDB6F21197C6900305C2D /* XYAttribute */,
 				2913F6C61F1CA4F400EB0667 /* XYBlock */,
 				2901AFD51EE7BE79008A0288 /* XYProtocol */,
@@ -278,6 +299,7 @@
 				29DB762F1E6D8FE600653836 /* Assets.xcassets in Resources */,
 				2900CA7C1ED333020061C90E /* XYReloadViewController.xib in Resources */,
 				29DB762D1E6D8FE600653836 /* Main.storyboard in Resources */,
+				293CDB8221198C5300305C2D /* XYTypeCViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,8 +318,10 @@
 				291A51C01E94D92E002B954B /* UIScrollView+D.m in Sources */,
 				2913F6CA1F1CA52300EB0667 /* XYBlockViewController.m in Sources */,
 				29DB76241E6D8FE600653836 /* main.m in Sources */,
+				293CDB772119874E00305C2D /* XYBlockSyntax.m in Sources */,
 				2901AFD91EE7BED6008A0288 /* XYProtocolViewController.m in Sources */,
 				291A51BA1E94D563002B954B /* XYScrolViewController.m in Sources */,
+				293CDB8121198C5300305C2D /* XYTypeCViewController.m in Sources */,
 				293CDB7321197C9A00305C2D /* XYAttributeViewController.m in Sources */,
 				29DB763C1E6D934600653836 /* XYIndexPathViewController.m in Sources */,
 			);
