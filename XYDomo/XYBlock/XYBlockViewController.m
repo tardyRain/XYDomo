@@ -15,7 +15,7 @@ typedef void(^XYBlock)(void);
     XYBlock myBlock;
 }
 
-@property (nonatomic, weak) UIView *weakView;
+@property (nonatomic, strong) UIView *weakView;
 @end
 
 @implementation XYBlockViewController

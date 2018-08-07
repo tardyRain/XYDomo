@@ -16,6 +16,8 @@
 		291A51BA1E94D563002B954B /* XYScrolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A51B91E94D563002B954B /* XYScrolViewController.m */; };
 		291A51BD1E94D7AD002B954B /* XYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A51BC1E94D7AD002B954B /* XYScrollView.m */; };
 		291A51C01E94D92E002B954B /* UIScrollView+D.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A51BF1E94D92E002B954B /* UIScrollView+D.m */; };
+		293CDB7321197C9A00305C2D /* XYAttributeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 293CDB7121197C9A00305C2D /* XYAttributeViewController.m */; };
+		293CDB7421197C9A00305C2D /* XYAttributeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293CDB7221197C9A00305C2D /* XYAttributeViewController.xib */; };
 		29BE9B841ED8162E00EE3F49 /* XYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BE9B821ED8162E00EE3F49 /* XYWebViewController.m */; };
 		29BE9B851ED8162E00EE3F49 /* XYWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BE9B831ED8162E00EE3F49 /* XYWebViewController.xib */; };
 		29DB76241E6D8FE600653836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DB76231E6D8FE600653836 /* main.m */; };
@@ -57,6 +59,9 @@
 		291A51BC1E94D7AD002B954B /* XYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYScrollView.m; sourceTree = "<group>"; };
 		291A51BE1E94D92E002B954B /* UIScrollView+D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+D.h"; sourceTree = "<group>"; };
 		291A51BF1E94D92E002B954B /* UIScrollView+D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+D.m"; sourceTree = "<group>"; };
+		293CDB7021197C9A00305C2D /* XYAttributeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAttributeViewController.h; sourceTree = "<group>"; };
+		293CDB7121197C9A00305C2D /* XYAttributeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAttributeViewController.m; sourceTree = "<group>"; };
+		293CDB7221197C9A00305C2D /* XYAttributeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XYAttributeViewController.xib; sourceTree = "<group>"; };
 		29BE9B811ED8162E00EE3F49 /* XYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYWebViewController.h; sourceTree = "<group>"; };
 		29BE9B821ED8162E00EE3F49 /* XYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYWebViewController.m; sourceTree = "<group>"; };
 		29BE9B831ED8162E00EE3F49 /* XYWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYWebViewController.xib; sourceTree = "<group>"; };
@@ -129,6 +134,16 @@
 			path = ScrollCatory;
 			sourceTree = "<group>";
 		};
+		293CDB6F21197C6900305C2D /* XYAttribute */ = {
+			isa = PBXGroup;
+			children = (
+				293CDB7021197C9A00305C2D /* XYAttributeViewController.h */,
+				293CDB7121197C9A00305C2D /* XYAttributeViewController.m */,
+				293CDB7221197C9A00305C2D /* XYAttributeViewController.xib */,
+			);
+			path = XYAttribute;
+			sourceTree = "<group>";
+		};
 		29BE9B801ED8161000EE3F49 /* XYWebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +173,7 @@
 		29DB76211E6D8FE600653836 /* XYDomo */ = {
 			isa = PBXGroup;
 			children = (
+				293CDB6F21197C6900305C2D /* XYAttribute */,
 				2913F6C61F1CA4F400EB0667 /* XYBlock */,
 				2901AFD51EE7BE79008A0288 /* XYProtocol */,
 				29BE9B801ED8161000EE3F49 /* XYWebView */,
@@ -256,6 +272,7 @@
 			files = (
 				2913F6CB1F1CA52300EB0667 /* XYBlockViewController.xib in Resources */,
 				29BE9B851ED8162E00EE3F49 /* XYWebViewController.xib in Resources */,
+				293CDB7421197C9A00305C2D /* XYAttributeViewController.xib in Resources */,
 				2901AFDA1EE7BED6008A0288 /* XYProtocolViewController.xib in Resources */,
 				29DB76321E6D8FE600653836 /* LaunchScreen.storyboard in Resources */,
 				29DB762F1E6D8FE600653836 /* Assets.xcassets in Resources */,
@@ -281,6 +298,7 @@
 				29DB76241E6D8FE600653836 /* main.m in Sources */,
 				2901AFD91EE7BED6008A0288 /* XYProtocolViewController.m in Sources */,
 				291A51BA1E94D563002B954B /* XYScrolViewController.m in Sources */,
+				293CDB7321197C9A00305C2D /* XYAttributeViewController.m in Sources */,
 				29DB763C1E6D934600653836 /* XYIndexPathViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
